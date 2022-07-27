@@ -24,16 +24,22 @@ const Portfolio = () => {
       {/* slider */}
       <div className="midlePortfolio">
         <div>
+        <a href="https://github.com/sandeshpatil-008/Portfolio_Sandesh" className="anchore">
           <img src={Folio} alt="" height={175}/>
           <p className="portHeading">Personal Portfolio</p>
+                    </a>
         </div>
         <div>
+        <a href="https://github.com/sandeshpatil-008/Netflix-Clone" className="anchore">
           <img src={Netflix} alt="" />
           <p className="portHeading">Netflix Clone</p>
+          </a>
         </div>
         <div>
+        <a href="https://github.com/sandeshpatil-008/Gym" className="anchore">
           <img src={Expence} alt="" height={175}/>
           <p className="portHeading">Expense Tracker</p>
+          </a>
         </div>
         <div>
           <a href="https://github.com/sandeshpatil-008/Gym" className="anchore">
@@ -42,12 +48,16 @@ const Portfolio = () => {
           </a>
         </div>
         <div>
+        <a href="https://github.com/sandeshpatil-008/To_Do_App" className="anchore">
           <img src={Todo} alt="" height={175}/>
           <p className="portHeading">To Do App</p>
+          </a>
         </div>
         <div>
+        <a href="https://github.com/sandeshpatil-008/User_Information" className="anchore">
           <img src={User} alt="" height={175}/>
           <p className="portHeading">User information</p>
+          </a>
         </div>
       </div>
     </div>
