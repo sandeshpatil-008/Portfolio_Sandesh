@@ -1,0 +1,49 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 0.-5rem -3.5rem;
+    position: relative;
+    
+}
+
+.f-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    width: 100%;
+    color: white;
+}
+.f-content>:nth-child(1){
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+.f-icons{
+    display: flex;
+}
+.f-icons>*:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.5s all ease-in;
+}
+.footerIcon{
+  margin-right: 2rem;
+}
+@media (max-width: 480px){
+    .f-content{
+      transform: scale(.5);
+    margin-top: 2rem;
+
+    }
+  }
+  @media (max-width: 400px){
+    .f-content{
+      padding-top: 15px;
+    }
+  }
+
+  @media (max-width: 1000px){
+    
+  }
